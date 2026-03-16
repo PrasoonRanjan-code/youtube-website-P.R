@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  font-family: Consolas, monospace;
+  background: black;
+  color: #00ff66;
+  text-align: center;
+}
+
+/* hacker background */
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.25;
+  z-index: -2;
+}
+
+/* matrix */
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* header */
+
+header {
+  padding: 20px;
+  text-shadow: 0 0 10px #00ff66;
+}
+
+/* menu */
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #00ff66;
+  text-decoration: none;
+  border: 1px solid #00ff66;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+/* profile */
+
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #00ff66;
+  box-shadow: 0 0 20px #00ff66;
+}
+
+/* sections */
+
+section {
+  padding: 40px 20px;
+}
+
+/* button */
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  border: 2px solid #00ff66;
+  color: #00ff66;
+  text-decoration: none;
+}
+
+/* videos */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.grid iframe {
+  width: 100%;
+  height: 200px;
+  border: none;
+}
+
+/* live */
+
+iframe {
+  width: 90%;
+  max-width: 800px;
+  height: 420px;
+  border: none;
+}
+
+/* comments */
+
+textarea {
+  width: 90%;
+  max-width: 600px;
+  height: 100px;
+  background: black;
+  color: #00ff66;
+  border: 1px solid #00ff66;
+}
+
+#comments {
+  margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+  iframe {
+    height: 250px;
+  }
+}
+body{
+margin:0;
+font-family:Consolas,monospace;
+background:black;
+color:#00ff66;
+text-align:center;
+}
+
+/* hacker background */
+
+.bgvideo{
+position:fixed;
+right:0;
+bottom:0;
+min-width:100%;
+min-height:100%;
+opacity:.25;
+z-index:-2;
+}
+
+/* matrix */
+
+canvas{
+position:fixed;
+top:0;
+left:0;
+z-index:-1;
+}
+
+/* header */
+
+header{
+padding:20px;
+text-shadow:0 0 10px #00ff66;
+}
+
+/* menu */
+
+nav{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+nav a{
+color:#00ff66;
+text-decoration:none;
+border:1px solid #00ff66;
+padding:8px 14px;
+border-radius:6px;
+}
+
+/* profile */
+
+.profile img{
+width:150px;
+border-radius:50%;
+border:3px solid #00ff66;
+box-shadow:0 0 20px #00ff66;
+}
+
+/* sections */
+
+section{
+padding:40px 20px;
+}
+
+/* button */
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 24px;
+border:2px solid #00ff66;
+color:#00ff66;
+text-decoration:none;
+}
+
+/* videos */
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:20px;
+}
+
+.grid iframe{
+width:100%;
+height:200px;
+border:none;
+}
+
+/* live */
+
+iframe{
+width:90%;
+max-width:800px;
+height:420px;
+border:none;
+}
+
+/* comments */
+
+textarea{
+width:90%;
+max-width:600px;
+height:100px;
+background:black;
+color:#00ff66;
+border:1px solid #00ff66;
+}
+
+#comments{
+margin-top:20px;
+}
+
+@media(max-width:700px){
+
+iframe{
+height:250px;
+}
+
+}
+/* phone layout */
+
+.mobile iframe{
+height:230px;
+}
+
+/* pc layout */
+
+.desktop iframe{
+height:420px;
+}

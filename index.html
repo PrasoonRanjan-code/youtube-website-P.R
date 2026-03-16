@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Prasoon Ranjan Pro</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- background video -->
+
+    <video autoplay muted loop class="bgvideo">
+        <source src="hacker.mp4" type="video/mp4">
+    </video>
+
+    <!-- matrix -->
+
+    <canvas id="matrix"></canvas>
+
+    <header>
+
+        <h1>Prasoon Ranjan Pro</h1>
+
+        <nav>
+
+            <a href="#home">Home</a>
+            <a href="#videos">Videos</a>
+            <a href="#live">Live</a>
+            <a href="#story">Story</a>
+
+        </nav>
+
+    </header>
+
+    <section id="home">
+
+        <div class="profile">
+
+            <img src="photo.png">
+
+        </div>
+
+        <h2>Pro Hacker Gamer</h2>
+
+        <h3>
+            Subscribers :
+            <span id="subs">Loading...</span>
+        </h3>
+
+        <a class="btn" href="https://www.youtube.com/@PrasoonRanjanPro" target="_blank">
+
+            Youtube Channel
+
+        </a>
+
+    </section>
+
+    <section id="videos">
+
+        <h2>Latest Videos</h2>
+
+        <div id="videoGrid" class="grid"></div>
+
+    </section>
+
+    <section id="live">
+
+        <h2>Live Stream</h2>
+
+        <iframe src="https://www.youtube.com/embed/live_stream?channel=CHANNEL_ID">
+        </iframe>
+
+    </section>
+
+    <section id="story">
+
+        <h2 class="story-title">
+            Story About Prasoon
+        </h2>
+
+        <p>
+
+            Prasoon Ranjan Pro is a young creator who is only 12 years old.
+
+            His dream is to become a YouTuber and a software developer.
+
+            He currently has a laptop that many people call a potato PC.
+
+            Many games do not run on it but he still keeps trying to learn
+            technology and create content.
+
+            On March 14 2026 which was his result day he received ??.?%.
+
+            After that day he asked his father if he could upgrade the
+            laptop so he can learn programming and build his channel.
+
+            Full story coming soon...
+
+            <br><br>
+
+            <b>We Have to Reach 100 Subscribers!</b>
+
+        </p>
+
+        <h3>Comments</h3>
+
+        <textarea id="commentInput" placeholder="Write a comment"></textarea>
+
+        <br>
+
+        <button onclick="addComment()">
+            Post Comment
+        </button>
+
+        <div id="comments"></div>
+
+    </section>
+
+    <script src="device.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
